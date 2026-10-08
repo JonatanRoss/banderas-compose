@@ -20,8 +20,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             BanderasDemoooTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
+                    BanderaMexico(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
